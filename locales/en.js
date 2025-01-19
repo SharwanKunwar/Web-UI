@@ -84,7 +84,7 @@ const en = {
     "bookmarkSearch": "Search bookmark",
 
     // New Tab Item
-    "conditionText": "Hello! How are you today?",
+    "conditionText": "Sharwan jung kunwar",
     "humidityLevel": "Humidity",
     "feelsLike": "Feels",
     "location": "Earth",
