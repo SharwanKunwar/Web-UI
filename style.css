@@ -611,6 +611,7 @@ body #bookmarkButton.bookmark-button.rotate {
 #bookmarkSearch::placeholder {
 	color: var(--textColorDark-blue);
 	opacity: 0.7;
+	
 }
 
 #clearSearchButton {
@@ -1077,6 +1078,7 @@ body #bookmarkButton.bookmark-button.rotate {
 	height: 300px;
 	border-radius: 100%;
 	position: relative;
+	
 }
 
 #analogClock {
@@ -1089,6 +1091,7 @@ body #bookmarkButton.bookmark-button.rotate {
 #clock svg {
 	position: absolute;
 	animation: clockAnm 1s;
+	
 }
 
 @keyframes clockAnm {
@@ -1433,6 +1436,7 @@ body #bookmarkButton.bookmark-button.rotate {
 	/* background-color: var(--accentLightTint-blue); */
 	position: relative;
 	outline: 2px solid #00000000;
+	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
 	transition: outline 0.3s;
 }
 
@@ -1453,6 +1457,7 @@ body #bookmarkButton.bookmark-button.rotate {
 	align-items: center;
 	height: 100%;
 	padding-right: 10px;
+	
 }
 
 #searchQ {
@@ -1489,6 +1494,7 @@ body #bookmarkButton.bookmark-button.rotate {
 
 /* --------- .micIcon------------- */
 
+
 .micIcon {
 	width: 40px;
 	height: 40px;
@@ -1505,6 +1511,8 @@ body #bookmarkButton.bookmark-button.rotate {
 	background-color: var(--whitishColor-blue);
 	/* transition: all 0.5s; */
 	border: 2px solid transparent;
+	box-shadow: inset 0 2px 4px rgba(26, 150, 233, 0.2);
+	
 }
 
 .theme-transition .micIcon {
@@ -1542,7 +1550,7 @@ body #bookmarkButton.bookmark-button.rotate {
 	}
 
 	37% {
-		transform: rotate(-20deg);
+		transform: rotate(-7200deg);
 	}
 
 	69% {
@@ -1602,6 +1610,7 @@ body #bookmarkButton.bookmark-button.rotate {
 	position: relative;
 	margin-right: 16px;
 	border-radius: var(--round);
+	box-shadow: inset 0 2px 4px rgba(91, 91, 92, 0.2);
 }
 
 .searchWithCont .hint::after {
@@ -1630,6 +1639,7 @@ body #bookmarkButton.bookmark-button.rotate {
 	justify-content: center;
 	position: relative;
 	cursor: pointer;
+	box-shadow: inset 0 2px 4px rgba(95, 95, 95, 0.438);
 }
 
 .searchEnginesContainer .search-engine svg{
@@ -1639,6 +1649,7 @@ body #bookmarkButton.bookmark-button.rotate {
 	border-radius: 100%;
 	margin-left: 4px;
 	padding: 3px;
+	
 }
 
 .searchEnginesContainer .search-engine label {
@@ -2874,6 +2885,7 @@ input:checked + .toggle:before {
 	z-index: 2;
 	transition: all 0.4s ease;
 }
+
 
 /* #menuCloseButton .icon:hover{
     transition: all 0.2s;

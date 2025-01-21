@@ -2748,7 +2748,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // The new shortcut placeholder info
     const PLACEHOLDER_SHORTCUT_NAME = "New shortcut";
-    const PLACEHOLDER_SHORTCUT_URL = "https://github.com/XengShi/materialYouNewTab";
+    const PLACEHOLDER_SHORTCUT_URL = "ShortCut link past here";
 
     // The placeholder for an empty shortcut
     const SHORTCUT_NAME_PLACEHOLDER = "Shortcut Name";
