@@ -284,6 +284,10 @@ body {
 	border-radius: 25%;
 	padding: 1px;
 	cursor: pointer;
+	
+}
+.dot-icon:hover{
+	box-shadow: inset 0 4px 8px rgba(233, 11, 11, 0.3);
 }
 
 .theme-transition .dot-icon{
@@ -1253,6 +1257,7 @@ body #bookmarkButton.bookmark-button.rotate {
 	border-radius: var(--round);
 	padding: 20px;
 	position: relative;
+	box-shadow: inset 0 2px 4px rgba(95, 95, 95, 0.438);
 }
 
 #conditionText {
@@ -1856,6 +1861,8 @@ body #bookmarkButton.bookmark-button.rotate {
 	overflow-y: hidden;
 	scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE and Edge */
+	
+	
 }
 .aiToolsCont::-webkit-scrollbar {
 	display: none; /* Chrome, Safari, Edge, Opera */
@@ -1872,6 +1879,7 @@ body #bookmarkButton.bookmark-button.rotate {
 	border-radius: 100px;
 	z-index: 2;
 	cursor: pointer;
+	box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .aiToolsCont .hangno .icon {
@@ -1886,6 +1894,7 @@ body #bookmarkButton.bookmark-button.rotate {
 	cursor: pointer;
 	width: fit-content;
     	min-width: 61px; /* 61px is working fine for english lang */
+		
 }
 
 .aiToolsCont .toolsCont {
@@ -1899,6 +1908,7 @@ body #bookmarkButton.bookmark-button.rotate {
 	transform-origin: left;
 	transform: scale(0.5) translateX(-70px);
 	opacity: 0.2;
+	
 }
 
 .aiToolsCont .toolsCont::before {
@@ -1909,9 +1919,11 @@ body #bookmarkButton.bookmark-button.rotate {
 	background-color: var(--accentLightTint-blue);
 	border-radius: 6px;
 	left: -18px;
+	
 }
 #firefly{
 	width: 103px;
+	
 }
 
 .aiToolsCont .toolsCont a {
@@ -1926,11 +1938,13 @@ body #bookmarkButton.bookmark-button.rotate {
 	color: var(--textColorDark-blue);
 	font-size: 1rem;
 	transition: all 0.3s ease;
+	box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .aiToolsCont .toolsCont a:hover {
 	background-color: var(--bg-color-blue);
 	box-shadow: inset 0 0 0 1px var(--darkColor-blue);
+	
 }
 
 .aiToolsCont .toolsCont .tIcon {
@@ -2817,10 +2831,11 @@ input:checked + .toggle:before {
 	background-color: var(--accentLightTint-blue);
 	border-radius: 50%;
 	border: 6px solid var(--accentLightTint-blue);
+	
 	box-shadow:
 		/* inset 0 0 0 6px var(--accentLightTint-blue), */
-		inset 0 0 0 4px var(--darkColor-blue),
-		inset 0 0 0 9.7px var(--accentLightTint-blue),
+		inset 0 0 0 2px var(--darkerColor-red),
+		inset 0 0 0 8.7px var(--accentLightTint-blue),
 		inset 0 0 0 40px var(--darkColor-blue);
 	cursor: pointer;
 }
